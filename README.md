@@ -37,15 +37,15 @@
             text-decoration: underline;
         }
         .container {
-            width: 80%;
+            width: 100%;
             margin: auto;
             overflow: hidden;
-            padding: 20px 0;
+            padding: 30px 0;
         }
         .main-content {
             background: #fff;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 30px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
