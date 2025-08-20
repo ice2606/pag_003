@@ -7,9 +7,9 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            margin: 20;
+            padding: 20;
+            background-color:;
             color: #333;
             line-height: 1.6;
         }
