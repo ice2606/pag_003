@@ -196,6 +196,18 @@ background-color:38F527 ;
     font-weight: bold;
     transition: background-color 0.3s;
   }
+.contenedor-grid {
+  display: grid; /* Convierte el contenedor en un Grid */
+  grid-template-columns: 1fr 1fr 1fr; /* Crea 3 columnas de igual tamaño */
+  gap: 20px; /* Agrega espacio entre los cuadros */
+  justify-items: center; /* Centra los elementos dentro de sus celdas */
+  align-items: center; /* Centra los elementos verticalmente en sus celdas */
+}
+.cuadro {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+}
 .producto-card .whatsapp-btn:hover {
     background-color: #128C7E;
   }
