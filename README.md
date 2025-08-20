@@ -269,15 +269,15 @@ background-color:38F527 ;
     </tr>
   <tr>
       <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Este es el Producto 1. Con un diseño moderno y funcional.</span></td>
+      <td data-label="Descripción"><span class="descripcion">Este es el Producto 4. Con un diseño moderno y funcional.</span></td>
       <td data-label="Precio"><span class="precio">$150</span></td>
       <td data-label="Comprar"><a href="https://wa.me/tunumerodetelefono?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
   <tr>
       <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Este es el Producto 1. Con un diseño moderno y funcional.</span></td>
+      <td data-label="Descripción"><span class="descripcion">Este es el Producto 5. Con un diseño moderno y funcional.</span></td>
       <td data-label="Precio"><span class="precio">$150</span></td>
-      <td data-label="Comprar"><a href="https://wa.me/tunumerodetelefono?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
+      <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
     </tbody>
 </table>
