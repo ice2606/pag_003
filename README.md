@@ -25,7 +25,7 @@
 <body>
 
   <div class="titulo-pagina">
-    <h1>Título de Mi Página Web</h1>
+    <h1>VIENVENIDOS </h1>
   </div>
 
 </body>
@@ -146,122 +146,6 @@ background-color:38F527 ;
 
 
 
-
-
-<html>
-<head>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .producto-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-  }
- .producto-card h2 {
-    color: #333;
-    margin-top: 0;
-  }
-.producto-card .precio {
-    color: #28a745;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  .producto-card .descripcion {
-    color: #666;
-    font-size: 14px;
-    height: 60px; /* Altura fija para la descripción */
-    overflow: hidden; /* Oculta el texto que se desborda */
-    text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es muy largo */
-  }
- .producto-card .whatsapp-btn {
-    display: inline-block;
-    background-color: #25D366; /* Color de WhatsApp */
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 50px;
-    margin-top: 15px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-.contenedor-grid {
-  display: grid; /* Convierte el contenedor en un Grid */
-  grid-template-columns: 1fr 1fr 1fr; /* Crea 3 columnas de igual tamaño */
-  gap: 20px; /* Agrega espacio entre los cuadros */
-  justify-items: center; /* Centra los elementos dentro de sus celdas */
-  align-items: center; /* Centra los elementos verticalmente en sus celdas */
-}
-.cuadro {
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-.producto-card .whatsapp-btn:hover {
-    background-color: #128C7E;
-  }
-</style>
-</head>
-<body>
-
-  <div class="producto-card">
-    <h2>Producto 1</h2>
-    <p class="precio">$150</p>
-    <p class="descripcion">Descripción del Producto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%201." class="whatsapp-btn" target="_blank">
-      Comprar por WhatsApp
-    </a>
-  </div>
-
-  <div class="producto-card">
-    <h2>Producto 2</h2>
-    <p class="precio">$250</p>
-    <p class="descripcion">Descripción del Producto 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%202." class="whatsapp-btn" target="_blank">
-      Comprar por WhatsApp
-    </a>
-  </div>
-
-  <div class="producto-card">
-    <h2>Producto 3</h2>
-    <p class="precio">$300</p>
-    <p class="descripcion">Descripción del Producto 3. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%203." class="whatsapp-btn" target="_blank">
-      Comprar por WhatsApp
-    </a>
-  </div>
-
-  <div class="producto-card">
-    <h2>Producto 4</h2>
-    <p class="precio">$500</p>
-    <p class="descripcion">Descripción del Producto 4. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%204." class="whatsapp-btn" target="_blank">
-      Comprar por WhatsApp
-    </a>
-  </div>
-
-  <div class="producto-card">
-    <h2>Producto 5</h2>
-    <p class="precio">$120</p>
-    <p class="descripcion">Descripción del Producto 5. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%205." class="whatsapp-btn" target="_blank">
-      Comprar por WhatsApp
-    </a>
-  </div>
-
-</body>
-</html>
 
 
 
