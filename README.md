@@ -1,4 +1,63 @@
 
+<html>
+<head>
+<style>
+  .titulo-pagina {
+    /* Dimensiones del cuadro */
+    width: 80%;       /* Puedes cambiar este valor (ej. 500px, 90%) */
+    height: 100px;    /* Puedes cambiar este valor (ej. auto, 150px) */
+    /* Colores */
+    background-color: #3498db; /* Cambia este código por el color que desees */
+    color: white;              /* Color del texto */  
+    /* Centrado y estilo */
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .titulo-pagina h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+</style>
+</head>
+<body>
+
+  <div class="titulo-pagina">
+    <h1>Título de Mi Página Web</h1>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <head>
 <style>
