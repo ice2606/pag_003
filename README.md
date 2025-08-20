@@ -81,8 +81,7 @@ background-color:38F527 ;
 <body>
 
   <div class="contenedor-texto">
-    <h1>precio,estilo y comodida </h1>
-    <p>donde la calidad nunca pasa de moda </p>
+    
   </div>
 
 </body>
@@ -142,7 +141,6 @@ background-color:38F527 ;
 </head>
 <body>
 
-  <p>Este es un texto que se ve sobre la imagen de fondo.</p>
 
 </body>
 </html>
