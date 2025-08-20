@@ -155,13 +155,10 @@ background-color:38F527 ;
 
 
 
-C O D I G O S
-DE P R E C I O
 
 
 
 
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -174,7 +171,6 @@ DE P R E C I O
     flex-wrap: wrap;
     gap: 20px;
   }
-
   .producto-card {
     background-color: white;
     border-radius: 10px;
@@ -183,19 +179,16 @@ DE P R E C I O
     width: 300px;
     text-align: center;
   }
-
-  .producto-card h2 {
+ .producto-card h2 {
     color: #333;
     margin-top: 0;
   }
-
-  .producto-card .precio {
+.producto-card .precio {
     color: #28a745;
     font-size: 24px;
     font-weight: bold;
     margin: 10px 0;
   }
-
   .producto-card .descripcion {
     color: #666;
     font-size: 14px;
@@ -203,8 +196,7 @@ DE P R E C I O
     overflow: hidden; /* Oculta el texto que se desborda */
     text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es muy largo */
   }
-
-  .producto-card .whatsapp-btn {
+ .producto-card .whatsapp-btn {
     display: inline-block;
     background-color: #25D366; /* Color de WhatsApp */
     color: white;
@@ -215,8 +207,7 @@ DE P R E C I O
     font-weight: bold;
     transition: background-color 0.3s;
   }
-
-  .producto-card .whatsapp-btn:hover {
+.producto-card .whatsapp-btn:hover {
     background-color: #128C7E;
   }
 </style>
