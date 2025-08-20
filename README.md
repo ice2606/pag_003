@@ -222,7 +222,7 @@ DE P R E C I O
     <h2>Producto 1</h2>
     <p class="precio">$150</p>
     <p class="descripcion">Descripción del Producto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="https://wa.me/numerodetelefono?text=¡Hola!%20Me%20interesa%20el%20Producto%201." class="whatsapp-btn" target="_blank">
+    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%201." class="whatsapp-btn" target="_blank">
       Comprar por WhatsApp
     </a>
   </div>
@@ -231,7 +231,7 @@ DE P R E C I O
     <h2>Producto 2</h2>
     <p class="precio">$250</p>
     <p class="descripcion">Descripción del Producto 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <a href="https://wa.me/numerodetelefono?text=¡Hola!%20Me%20interesa%20el%20Producto%202." class="whatsapp-btn" target="_blank">
+    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%202." class="whatsapp-btn" target="_blank">
       Comprar por WhatsApp
     </a>
   </div>
@@ -240,7 +240,7 @@ DE P R E C I O
     <h2>Producto 3</h2>
     <p class="precio">$300</p>
     <p class="descripcion">Descripción del Producto 3. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    <a href="https://wa.me/numerodetelefono?text=¡Hola!%20Me%20interesa%20el%20Producto%203." class="whatsapp-btn" target="_blank">
+    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%203." class="whatsapp-btn" target="_blank">
       Comprar por WhatsApp
     </a>
   </div>
@@ -249,7 +249,7 @@ DE P R E C I O
     <h2>Producto 4</h2>
     <p class="precio">$500</p>
     <p class="descripcion">Descripción del Producto 4. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-    <a href="https://wa.me/numerodetelefono?text=¡Hola!%20Me%20interesa%20el%20Producto%204." class="whatsapp-btn" target="_blank">
+    <a href="https://wa.me/+505 89906649?text=¡Hola!%20Me%20interesa%20el%20Producto%204." class="whatsapp-btn" target="_blank">
       Comprar por WhatsApp
     </a>
   </div>
