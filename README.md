@@ -143,10 +143,10 @@ background-color:38F527 ;
 
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
-<title>Catálogo de Productos</title>
+<title>Catálogo</title>
 <style>
   body {
     font-family: Arial, sans-serif;
