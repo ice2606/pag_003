@@ -94,7 +94,7 @@ background-color:38F527 ;
 
 
 <a href="https://ice2606.github.io/pagina-002/" class="boton-verde">
-  <button>Ir a catalogo </button>
+  <button>atras </button>
 </a>
 
 <style>
