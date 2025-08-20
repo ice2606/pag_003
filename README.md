@@ -25,7 +25,7 @@
 <body>
 
   <div class="titulo-pagina">
-    <h1>VIENVENIDOS </h1>
+    <h1>BIENVENIDOS </h1>
   </div>
 
 </body>
@@ -156,7 +156,6 @@ background-color:38F527 ;
     display: flex;
     justify-content: center;
   }
-
   table {
     width: 100%;
     max-width: 900px;
@@ -165,33 +164,27 @@ background-color:38F527 ;
     background-color: white;
     table-layout: fixed; /* Mantiene las columnas de igual ancho */
   }
-
-  th, td {
+ th, td {
     padding: 15px;
     text-align: center;
     border: 1px solid #ddd;
   }
-
   th {
     background-color: #3f51b5;
     color: white;
   }
-
   tr:nth-child(even) {
     background-color: #f9f9f9;
   }
-
   tr:hover {
     background-color: #f1f1f1;
   }
-
-  .producto-img {
+.producto-img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 5px;
   }
-
   .whatsapp-link {
     display: inline-block;
     background-color: #25D366;
@@ -202,21 +195,17 @@ background-color:38F527 ;
     font-weight: bold;
     transition: background-color 0.3s ease;
   }
-
   .whatsapp-link:hover {
     background-color: #128C7E;
   }
-
-  .precio {
+.precio {
     font-weight: bold;
     color: #007bff;
   }
-
   .descripcion {
     font-size: 14px;
     color: #666;
   }
-
   /* Media query para pantallas más pequeñas */
   @media (max-width: 768px) {
     table, thead, tbody, th, td, tr {
@@ -246,12 +235,10 @@ background-color:38F527 ;
     .producto-img {
       display: block;
       margin: 0 auto;
-    }
-  }
+    }  }
 </style>
 </head>
 <body>
-
 <table>
   <thead>
     <tr>
@@ -280,9 +267,20 @@ background-color:38F527 ;
       <td data-label="Precio"><span class="precio">$300</span></td>
       <td data-label="Comprar"><a href="https://wa.me/tunumerodetelefono?text=Hola,%20me%20interesa%20el%20Producto%203%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
-  </tbody>
+  <tr>
+      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">Este es el Producto 1. Con un diseño moderno y funcional.</span></td>
+      <td data-label="Precio"><span class="precio">$150</span></td>
+      <td data-label="Comprar"><a href="https://wa.me/tunumerodetelefono?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
+    </tr>
+  <tr>
+      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">Este es el Producto 1. Con un diseño moderno y funcional.</span></td>
+      <td data-label="Precio"><span class="precio">$150</span></td>
+      <td data-label="Comprar"><a href="https://wa.me/tunumerodetelefono?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
+    </tr>
+    </tbody>
 </table>
-
 </body>
 </html>
 
