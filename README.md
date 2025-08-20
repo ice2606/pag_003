@@ -55,7 +55,12 @@
             color: #fff;
             margin-top: 20px;
         }
-    </style>
+  .cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue; /* Color para que se vea el cuadrado */
+  }
+</style>
 </head>
 <body>
     <header>
