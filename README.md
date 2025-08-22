@@ -175,7 +175,7 @@ background-color:38F527 ;
   body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f5;
-    margin: 0;
+    margin: 40;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -298,7 +298,6 @@ body {
     <tr>
       <td data-label="Foto"><img src="01.jpg" alt="Producto 1" class="producto-img"></td>
       <td data-label="Descripción"><span class="descripcion">sandalias con perlas hermosas talla del 35 al 40.</span></td>
-      <td data-label="Precio"><span class="precio"></span></td>
       <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
     <tr>
