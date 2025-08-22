@@ -346,24 +346,88 @@ PRUEBA
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Espacio Móvil</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto Destacado</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f7fb;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .cuadro-producto {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 350px;
+      width: 90%;
+      margin: 20px;
+      padding: 24px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: box-shadow 0.2s;
+    }
+    .cuadro-producto:hover {
+      box-shadow: 0 8px 24px rgba(52, 152, 219, 0.15);
+    }
+    .foto-producto {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .descripcion-producto {
+      color: #222;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .whatsapp-link {
+      display: inline-block;
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-size: 1em;
+      font-weight: 600;
+      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(37, 211, 102, 0.15);
+    }
+    .whatsapp-link:hover {
+      background-color: #128C7E;
+    }
+    @media (max-width: 480px) {
+      .cuadro-producto {
+        padding: 16px 6px;
+      }
+      .descripcion-producto {
+        font-size: 1em;
+      }
+      .whatsapp-link {
+        padding: 10px 18px;
+        font-size: 0.97em;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="contenedor-movil">
-        <img src="https://via.placeholder.com/400" alt="Mi Foto" class="foto-adaptable">
-       <p class="descripcion">
-            ¡Hola! Soy un ejemplo de un espacio personal. Aquí puedes poner una descripción de tu negocio o servicio. Este texto se ajusta automáticamente a cualquier pantalla.
-        </p>
-        <a href="https://wa.me/numerodetelefono?text=Hola%20estoy%20interesado" class="enlace-whatsapp">
-            Contactar por WhatsApp
-        </a>
+  <div class="cuadro-producto">
+    <img src="https://via.placeholder.com/400x250?text=Producto" alt="Foto del Producto" class="foto-producto">
+    <div class="descripcion-producto">
+      Sandalias con perlas, cómodas y elegantes. Disponibles en tallas 35 al 40.
     </div>
-
+    <a href="https://wa.me/50589906649?text=Hola%2C%20me%20interesa%20el%20producto%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">
+      Consultar por WhatsApp
+    </a>
+  </div>
 </body>
 </html>
-
-
-
