@@ -250,33 +250,33 @@ background-color:38F527 ;
   </thead>
   <tbody>
     <tr>
-      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Este es el Producto 1. Con un diseño moderno y funcional.</span></td>
-      <td data-label="Precio"><span class="precio">$150</span></td>
+      <td data-label="Foto"><img src="01.jpg" alt="Producto 1" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">sandalias con perlas hermosas talla del 35 al 40.</span></td>
+      <td data-label="Precio"><span class="precio"></span></td>
       <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
     <tr>
-      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 2" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Producto 2 con gran calidad y durabilidad.</span></td>
-      <td data-label="Precio"><span class="precio">$250</span></td>
+      <td data-label="Foto"><img src="03.jpg " alt="Producto 2" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">sandalias color plateado con perlas tallas 35 al 40.</span></td>
+      <td data-label="Precio"><span class="precio"></span></td>
       <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%202%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
     <tr>
-      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 3" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Producto 3, la mejor opción para tus necesidades.</span></td>
-      <td data-label="Precio"><span class="precio">$300</span></td>
+      <td data-label="Foto"><img src="04.jpg" alt="Producto 3" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">sandalias color dorado con flores doradas </span></td>
+      <td data-label="Precio"><span class="precio"></span></td>
       <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%203%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
   <tr>
-      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Este es el Producto 4. Con un diseño moderno y funcional.</span></td>
-      <td data-label="Precio"><span class="precio">$150</span></td>
+      <td data-label="Foto"><img src="05.jpg" alt="Producto 1" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">sandalias color negro con flores negras</span></td>
+      <td data-label="Precio"><span class="precio"></span></td>
       <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
   <tr>
-      <td data-label="Foto"><img src="https://via.placeholder.com/100" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">Este es el Producto 5. Con un diseño moderno y funcional.</span></td>
-      <td data-label="Precio"><span class="precio">$150</span></td>
+      <td data-label="Foto"><img src="06.jpg" alt="Producto 1" class="producto-img"></td>
+      <td data-label="Descripción"><span class="descripcion">sandalias color gris con flores gris .</span></td>
+      <td data-label="Precio"><span class="precio">$</span></td>
       <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
     </tr>
     </tbody>
