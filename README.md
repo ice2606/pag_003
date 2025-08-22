@@ -258,7 +258,7 @@ background-color:38F527 ;
     }
     .producto-img {
       display: block;
-      margin: 0 auto;
+      margin: 40 auto;
 /* Estilos generales para pantallas grandes (por defecto) */
 body {
   font-family: Arial, sans-serif;
