@@ -168,176 +168,6 @@ background-color:38F527 ;
 
 
 
-<html>
-<head>
-<title>Catálogo</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f5;
-    margin: 40;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  table {
-    width: 100%;
-    max-width: 900px;
-    border-collapse: collapse;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    table-layout: fixed; /* Mantiene las columnas de igual ancho */
-  }
- th, td {
-    padding: 15px;
-    text-align: center;
-    border: 1px solid #ddd;
-  }
-  th {
-    background-color: #3f51b5;
-    color: white;
-  }
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  tr:hover {
-    background-color: #f1f1f1;
-  }
-.producto-img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
-  }
-  .whatsapp-link {
-    display: inline-block;
-    background-color: #25D366;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  .whatsapp-link:hover {
-    background-color: #128C7E;
-  }
-.precio {
-    font-weight: bold;
-    color: #007bff;
-  }
-  .descripcion {
-    font-size: 14px;
-    color: #666;
-  }
-  /* Media query para pantallas más pequeñas */
-  @media (max-width: 768px) {
-    table, thead, tbody, th, td, tr {
-      display: block;
-      width: 100%;
-    }
-    th {
-      display: none; /* Oculta los encabezados de la tabla en pantallas pequeñas */
-    }
-    td {
-      border: none;
-      border-bottom: 1px solid #ddd;
-      text-align: left;
-      padding-left: 50%;
-      position: relative;
-    }
-    td:before {
-      content: attr(data-label);
-      position: absolute;
-      top: 6px;
-      left: 6px;
-      width: 45%;
-      padding-right: 10px;
-      white-space: nowrap;
-      font-weight: bold;
-    }
-    .producto-img {
-      display: block;
-      margin: 40 auto;
-/* Estilos generales para pantallas grandes (por defecto) */
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
-.contenedor {
-  width: 960px; /* Ancho fijo para pantallas grandes */
-  margin: auto;
-}
-/* Media Query para pantallas de hasta 768px (tabletas y móviles) */
-@media (max-width: 768px) {
-  .contenedor {
-    width: 90%; /* Ancho flexible para pantallas más pequeñas */
-  }
-}
-/* Media Query para pantallas de hasta 480px (móviles) */
-@media (max-width: 480px) {
-  h1 {
-    font-size: 24px; /* Cambia el tamaño de la fuente para que se lea mejor */
-  }
-  .contenedor {
-    padding: 10px;
- }  }
-</style>
-</head>
-<body>
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Foto"><img src="01.jpg" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">sandalias con perlas hermosas talla del 35 al 40.</span></td>
-      <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
-    </tr>
-    <tr>
-      <td data-label="Foto"><img src="03.jpg " alt="Producto 2" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">sandalias color plateado con perlas tallas 35 al 40.</span></td>
-      <td data-label="Precio"><span class="precio"></span></td>
-      <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%202%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
-    </tr>
-    <tr>
-      <td data-label="Foto"><img src="04.jpg" alt="Producto 3" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">sandalias color dorado con flores doradas </span></td>
-      <td data-label="Precio"><span class="precio"></span></td>
-      <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%203%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
-    </tr>
-  <tr>
-      <td data-label="Foto"><img src="05.jpg" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">sandalias color negro con flores negras del 35 al 40</span></td>
-      <td data-label="Precio"><span class="precio"></span></td>
-      <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
-    </tr>
-  <tr>
-      <td data-label="Foto"><img src="06.jpg" alt="Producto 1" class="producto-img"></td>
-      <td data-label="Descripción"><span class="descripcion">sandalias color gris con flores gris del 35 al 40 .</span></td>
-      <td data-label="Precio"><span class="precio"></span></td>
-      <td data-label="Comprar"><a href="https://wa.me/+505 8990 6649?text=Hola,%20me%20interesa%20el%20Producto%201%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">WhatsApp</a></td>
-    </tr>
-    </tbody>
-</table>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
 
 
 PRUEBA 
@@ -421,7 +251,7 @@ PRUEBA
 </head>
 <body>
   <div class="cuadro-producto">
-    <img src="https://via.placeholder.com/400x250?text=Producto" alt="Foto del Producto" class="foto-producto">
+    <img src="01.jpg" alt="Foto del Producto" class="foto-producto">
     <div class="descripcion-producto">
       Sandalias con perlas, cómodas y elegantes. Disponibles en tallas 35 al 40.
     </div>
@@ -431,3 +261,54 @@ PRUEBA
   </div>
 </body>
 </html>
+
+<body>
+  <div class="cuadro-producto">
+    <img src="03.jpg" alt="Foto del Producto" class="foto-producto">
+    <div class="descripcion-producto">
+      Sandalias con perlas,color gris ,
+      cómodas y elegantes. Disponibles en tallas 35 al 40.
+    </div>
+    <a href="https://wa.me/50589906649?text=Hola%2C%20me%20interesa%20el%20producto%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">
+      Consultar por WhatsApp
+    </a>
+  </div>
+</body>
+
+
+<body>
+  <div class="cuadro-producto">
+    <img src="04.jpg" alt="Foto del Producto" class="foto-producto">
+    <div class="descripcion-producto">
+      Sandalias con perlas, doradas con flor, cómodas y elegantes. Disponibles en tallas 35 al 40.
+    </div>
+    <a href="https://wa.me/50589906649?text=Hola%2C%20me%20interesa%20el%20producto%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">
+      Consultar por WhatsApp
+    </a>
+  </div>
+</body>
+
+<body>
+  <div class="cuadro-producto">
+    <img src="05.jpg" alt="Foto del Producto" class="foto-producto">
+    <div class="descripcion-producto">
+      Sandalias con perlas,color negro, comodas  y elegantes. Disponibles en tallas 35 al 40.
+    </div>
+    <a href="https://wa.me/50589906649?text=Hola%2C%20me%20interesa%20el%20producto%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">
+      Consultar por WhatsApp
+    </a>
+  </div>
+</body>
+
+
+<body>
+  <div class="cuadro-producto">
+    <img src="06.jpg" alt="Foto del Producto" class="foto-producto">
+    <div class="descripcion-producto">
+      Sandalias con perlas, color gris con flor ,cómodas y elegantes. Disponibles en tallas 35 al 40.
+    </div>
+    <a href="https://wa.me/50589906649?text=Hola%2C%20me%20interesa%20el%20producto%20de%20tu%20sitio%20web." class="whatsapp-link" target="_blank">
+      Consultar por WhatsApp
+    </a>
+  </div>
+</body>
