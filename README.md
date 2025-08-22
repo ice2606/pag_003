@@ -348,8 +348,7 @@ background-color:38F527 ;
 </head>
 <body>
   <div class="contenido">
-    <h1>Bienvenido</h1>
-    <p>Esta página tiene una imagen de fondo que se ajusta a cualquier pantalla.</p>
+  
   </div>
 </body>
 </html>
