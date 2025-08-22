@@ -288,10 +288,10 @@ body {
 <table>
   <thead>
     <tr>
-      <th>Foto</th>
-      <th>Descripción</th>
-      <th>Precio</th>
-      <th>Comprar</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
