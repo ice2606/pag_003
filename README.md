@@ -259,7 +259,29 @@ background-color:38F527 ;
     .producto-img {
       display: block;
       margin: 0 auto;
-    }  }
+/* Estilos generales para pantallas grandes (por defecto) */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.contenedor {
+  width: 960px; /* Ancho fijo para pantallas grandes */
+  margin: auto;
+}
+/* Media Query para pantallas de hasta 768px (tabletas y móviles) */
+@media (max-width: 768px) {
+  .contenedor {
+    width: 90%; /* Ancho flexible para pantallas más pequeñas */
+  }
+}
+/* Media Query para pantallas de hasta 480px (móviles) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px; /* Cambia el tamaño de la fuente para que se lea mejor */
+  }
+  .contenedor {
+    padding: 10px;
+ }  }
 </style>
 </head>
 <body>
