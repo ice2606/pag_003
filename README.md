@@ -308,3 +308,54 @@ background-color:38F527 ;
     </a>
   </div>
 </body>
+
+
+
+
+
+
+
+
+
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fondo de Imagen Ajustable</title>
+  <style>
+    /* El body tendrá la imagen de fondo, ajustada a cualquier pantalla */
+    body {
+      /* Cambia 'tu-imagen.jpg' por la ruta o URL de tu imagen */
+      background-image: url('tenis.jpg');
+      background-size: cover;          /* La imagen cubre toda la pantalla */
+      background-position: center;     /* Centrada */
+      background-repeat: no-repeat;    /* No se repite */
+      background-attachment: fixed;    /* Fija al hacer scroll */
+      min-height: 100vh;               /* Asegura altura completa */
+      margin: 0;
+      padding: 0;
+    }
+    /* Opcional: Estilos para hacer legible el contenido */
+    .contenido {
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 20vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenido">
+    <h1>Bienvenido</h1>
+    <p>Esta página tiene una imagen de fondo que se ajusta a cualquier pantalla.</p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
