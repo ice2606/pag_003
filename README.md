@@ -331,3 +331,39 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+PRUEBA 
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Espacio Móvil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor-movil">
+        <img src="https://via.placeholder.com/400" alt="Mi Foto" class="foto-adaptable">
+       <p class="descripcion">
+            ¡Hola! Soy un ejemplo de un espacio personal. Aquí puedes poner una descripción de tu negocio o servicio. Este texto se ajusta automáticamente a cualquier pantalla.
+        </p>
+        <a href="https://wa.me/numerodetelefono?text=Hola%20estoy%20interesado" class="enlace-whatsapp">
+            Contactar por WhatsApp
+        </a>
+    </div>
+
+</body>
+</html>
+
+
+
