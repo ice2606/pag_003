@@ -170,10 +170,6 @@ background-color:38F527 ;
 
 
 
-PRUEBA 
-
-
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
